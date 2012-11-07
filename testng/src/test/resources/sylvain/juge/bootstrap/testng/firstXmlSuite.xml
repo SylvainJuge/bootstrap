@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <testn name="all tests">
+        <packages>
+            <package name="sylvain.juge.bootstrap.testng" />
+        </packages>
+    </test>
+</suite>
+

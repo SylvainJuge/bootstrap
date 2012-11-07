@@ -1,0 +1,26 @@
+TODO
+
+- learn how testng works
+    x concepts : test, groups, test suites
+    x @Before and @After annotations and their variants
+    x groups
+    x dependencies between methods/groups
+    - performance : timeout, invocation count
+    - thread safety and concurrency
+    - defining custom test suites through xml
+    - modify annotations at run time (and find a practical application of it)
+
+    known unknowns
+    - use case for failureRate ? for tooling & check if test fails more/less than before ?
+    - use case when running multiple times the same method (outside performance tests)
+
+- use cases where it is better than junit
+    - data provider : inject test data from external definitions (for example, xml provided by test team)
+    - define a class that is bound to a test group/suite
+        -> start/stop a server only once for all integration tests
+
+- execute tests without maven
+    - may be faster
+    x may require to package a special jar with test code
+    - use test suites packaged in a jar
+    - use testng.xml at root of that jar file to define which tests it contains

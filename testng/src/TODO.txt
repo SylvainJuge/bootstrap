@@ -13,6 +13,8 @@ TODO
     known unknowns
     - use case for failureRate ? for tooling & check if test fails more/less than before ?
     - use case when running multiple times the same method (outside performance tests)
+    - use cases of @Before for suites and groups
+        - for groups, does using this to setup/teardown is a recommended usage ?
 
 - use cases where it is better than junit
     - data provider : inject test data from external definitions (for example, xml provided by test team)

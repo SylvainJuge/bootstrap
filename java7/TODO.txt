@@ -1,0 +1,15 @@
+-- things to experiment with tests --
+
+- try with resources
+- try/catch with multiple exceptions thrown
+    -> catch an exception and throw another in finally block
+    -> we should be able to get "lost" exception through API
+- new filesystem api
+    -> common filesystem operations
+        -> create file/folder
+        -> delete file/folder
+        -> read/write files
+    -> explore the filesystem
+    -> define hooks for filesystem events
+    -> create a virtual filesystem
+- fork/join

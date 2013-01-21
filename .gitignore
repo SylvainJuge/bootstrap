@@ -5,3 +5,7 @@
 .classpath
 .project
 .settings
+# idea
+*.iml
+# vim
+*.swp

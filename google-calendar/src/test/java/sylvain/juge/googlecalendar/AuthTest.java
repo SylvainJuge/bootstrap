@@ -13,7 +13,6 @@ import java.util.List;
 import org.apache.commons.io.IOUtils;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
-import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
@@ -35,7 +34,7 @@ public class AuthTest {
     private static final String SCOPE = "https://www.googleapis.com/auth/calendar";
 
     @Test
-    public void testSignup() throws ClientProtocolException, IOException, URISyntaxException {
+    public void testSignup() throws IOException, URISyntaxException {
 
         URI codeUri = new URIBuilder(AUTH_URL)
                 .addParameter("response_type", "code")
